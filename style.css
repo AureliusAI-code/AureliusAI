@@ -265,3 +265,26 @@ text-align:center;
 line-height:1.8;
 
 }
+@media (max-width:600px){
+
+nav{
+
+padding:16px 18px;
+
+font-size:12px;
+
+}
+
+.beta{
+
+letter-spacing:1px;
+
+}
+
+.xlink{
+
+text-align:right;
+
+}
+
+}
