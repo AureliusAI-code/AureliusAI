@@ -20,7 +20,6 @@ let i = 0
 let j = 0
 
 const speed = 35
-
 const output = document.getElementById("terminal-output")
 
 function type(){
@@ -38,9 +37,7 @@ setTimeout(type,speed)
 }else{
 
 output.innerHTML += "<br>"
-
-j = 0
-
+j=0
 i++
 
 setTimeout(type,400)
