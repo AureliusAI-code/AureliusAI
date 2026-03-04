@@ -1,23 +1,23 @@
 body{
+
+margin:0;
 background:#050505;
 color:#d4af37;
+
 font-family:Inter;
-margin:0;
+
+overflow-x:hidden;
+
 }
 
-/* GRID */
-
-.grid{
+canvas{
 
 position:fixed;
+top:0;
+left:0;
+
 width:100%;
 height:100%;
-
-background-image:
-linear-gradient(rgba(212,175,55,0.06) 1px, transparent 1px),
-linear-gradient(90deg, rgba(212,175,55,0.06) 1px, transparent 1px);
-
-background-size:80px 80px;
 
 z-index:-1;
 
@@ -28,22 +28,24 @@ z-index:-1;
 .hero{
 
 text-align:center;
-padding-top:140px;
+padding-top:160px;
 
 }
 
 .logo{
 
 width:160px;
-margin-bottom:30px;
 
-filter:drop-shadow(0 0 30px rgba(212,175,55,0.5));
+filter:drop-shadow(0 0 40px rgba(212,175,55,0.5));
+
+margin-bottom:25px;
 
 }
 
 h1{
 
 font-family:"Playfair Display";
+
 font-size:80px;
 
 margin:0;
@@ -52,10 +54,11 @@ margin:0;
 
 .tagline{
 
-margin-top:20px;
+margin-top:15px;
+
 font-size:22px;
 
-color:#c9b27b;
+color:#c8b07a;
 
 }
 
@@ -76,7 +79,7 @@ width:900px;
 
 background:#0b0b0b;
 
-border-radius:12px;
+border-radius:10px;
 
 border:1px solid rgba(212,175,55,0.2);
 
@@ -86,17 +89,21 @@ box-shadow:0 0 60px rgba(212,175,55,0.15);
 
 .terminal-header{
 
-padding:14px;
+padding:12px;
+
 border-bottom:1px solid rgba(212,175,55,0.1);
 
 }
 
 .terminal-header span{
 
-height:10px;
 width:10px;
-background:#d4af37;
+height:10px;
+
 border-radius:50%;
+
+background:#d4af37;
+
 display:inline-block;
 margin-right:6px;
 
@@ -107,7 +114,6 @@ margin-right:6px;
 padding:35px;
 
 font-family:"JetBrains Mono";
-font-size:16px;
 
 color:#e6d3a3;
 
@@ -119,11 +125,11 @@ min-height:220px;
 
 .about{
 
-max-width:820px;
+max-width:800px;
 
 margin:140px auto;
 
-font-size:19px;
+font-size:18px;
 
 line-height:1.9;
 
@@ -135,16 +141,12 @@ padding:0 20px;
 
 }
 
-/* FOOTER */
-
 footer{
 
 text-align:center;
 
-padding:70px;
+padding:80px;
 
 color:#8c7845;
-
-font-size:14px;
 
 }
